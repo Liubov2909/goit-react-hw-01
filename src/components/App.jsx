@@ -1,14 +1,14 @@
-import './App.css'
+import './App.css';
 
-import { Product } from './Product';
+import { Profile } from './Profile';
 
-export default function App() {
+import userData from "../userData.json";
+
+export const App = () => {
   return (
-    <div>
-      <h1>Best selling</h1>
-
-      <Product name="Tacos With Lime" />
-      <Product name="Fries and Burger" />
-    </div>
+    <>
+      <Profile info={userData} />
+    </>
   );
-}
+};
+
