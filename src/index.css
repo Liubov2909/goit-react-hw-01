@@ -19,9 +19,9 @@ ul {
   list-style: none;
 }
 
-img {
+/* img {
   display: block;
-}
+} */
 
 :root {
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
