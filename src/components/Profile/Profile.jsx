@@ -1,4 +1,5 @@
 import "./Profile.css";
+
 export const Profile = ({
   info: {
     avatar,

@@ -1,4 +1,5 @@
 import "./TransactionHistory.css";
+
 export const TransactionHistory = ({ items }) => {
   return (
     <table className="table-box">
