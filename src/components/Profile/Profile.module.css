@@ -1,6 +1,4 @@
-/* styles for the profile */
-
-.profile-box {
+.box {
   padding-top: 24px;
   width: 480px;
   border: 2px solid #000;
@@ -10,7 +8,7 @@
   margin: 0 auto;
 }
 
-.profile-image {
+.image {
   margin: 0 auto;
   width: 220px;
   border-radius: 50%;
@@ -18,14 +16,14 @@
   box-shadow: 0 4px 4px #242122;
 }
 
-.title-name {
+.titleName {
   margin-top: 24px;
   color: black;
   font-size: 40px;
   font-weight: 700;
 }
 
-.nick-name {
+.nickname {
   margin-top: 24px;
   color: grey;
   font-size: 24px;
@@ -37,14 +35,14 @@
   font-size: 24px;
 }
 
-.stats-list {
+.statslist {
   margin-top: 16px;
   display: flex;
   justify-content: space-between;
   background-color: rgb(190, 189, 189);
 }
 
-.stats-list-item {
+.statslistItem {
   padding: 16px 8px;
   display: flex;
   flex: 1;
@@ -52,12 +50,12 @@
   border: 1px solid grey;
 }
 
-.stats-list-title {
+.statslistTitle {
   color: #000;
   font-size: 24px;
 }
 
-.stats-list-sum {
+.statslistSum {
   color: #000;
   font-size: 20px;
   font-weight: 700;

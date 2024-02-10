@@ -1,9 +1,11 @@
-export const FriendListItem = ({friends:{avatar, name, isOnline}}) => {
+import style from "./FriendList.module.css"
+
+export const FriendListItem = ({ avatar, name, isOnline }) => {
   return(
   <div>
-    <img className="friends-image" src={avatar} alt="Avatar" width="48" />
-    <p className="friends-name-title">{name}</p>
-    <p className={isOnline ? 'friends-is-online' : 'friends-offline'}>{isOnline ? 'Online' : 'Offline'}</p>
+    <img className={style.image} src={avatar} alt="Avatar" width="48" />
+    <p className={style.nameTitle}>{name}</p>
+    <p className={isOnline ? style.isOnline : style.offline}>{isOnline ? 'Online' : 'Offline'}</p>
   </div>
   )
 }
